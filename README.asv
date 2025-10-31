@@ -3,21 +3,13 @@
 
 Callstack: 
     Layer 1: 
-        Initialize: setup files to read and which algorithms to run piecewise for testing
+        initialize: setup files to read and which algorithms to run piecewise for testing
         runMQP: aka Main, takes int structs from initialize and runs all tests specified
         runSDR: ensures that all data is read in correctly and passed to the MCU afterwards
         runMCU: ensures that all needed datatypes from the SDR are appropriately passed to the MCU/ 
             stored
-    Layer 2, SDR: 
-        bandNorm_SDR:
-        FFT_SDR:
-    Layer 2, MCU: 
-        aoa:
-        beamforming:
-        CFAR:
-        fieldNavigation:
-        protocol_filter:
-        pathfinding_chain:
-        pathfinding_noise_reduction:
-        pathfinding_update:
+    Layer 2: 
         
+        
+
+
